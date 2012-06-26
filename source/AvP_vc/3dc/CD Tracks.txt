@@ -1,0 +1,77 @@
+;CD track list
+;Only lines starting with a # are looked at.
+;After the # a list of cd track numbers should be provided
+;All track numbers for a give level must appear on one line
+;Any symbol can be used to seperate the numbers (Other than ;) , I'm using commas.
+;Anything coming after a semicolon is ignored
+
+
+
+
+;Default tracks for each character.
+;Used in multiplayer games , or if no tracks have been assigned
+;to a level
+# 1,2,3,4,5 ;Marine
+# 6,7,8,9,10 ;Predator 
+# 11,12,13,14,15 ;Alien
+
+;Cd tracks assigned to each level
+
+;Marine
+# 2	;	AVP_ENVIRONMENT_DERELICT,
+# 1	;	AVP_ENVIRONMENT_COLONY,
+# 4	;	AVP_ENVIRONMENT_INVASION,
+# 3	;	AVP_ENVIRONMENT_ORBITAL,
+# 5	;	AVP_ENVIRONMENT_TYRARGO,
+# 5	;	AVP_ENVIRONMENT_TYRARGOHANGAR,
+
+;Predator
+# 7	;	AVP_ENVIRONMENT_WATERFALL,
+# 6	;	AVP_ENVIRONMENT_AREA52,
+# 8	;	AVP_ENVIRONMENT_VAULTS,
+# 10	;	AVP_ENVIRONMENT_FURY161,
+# 9	;	AVP_ENVIRONMENT_CAVERNS,
+# 9	;	AVP_ENVIRONMENT_CAVERNSEND,
+
+;Alien
+# 11	;	AVP_ENVIRONMENT_FERARCO,
+# 12	;	AVP_ENVIRONMENT_TEMPLE,
+# 13	;	AVP_ENVIRONMENT_GATEWAY,
+# 14	;	AVP_ENVIRONMENT_ESCAPE,
+# 15	;	AVP_ENVIRONMENT_EARTHBOUND,
+
+;Multiplayer part 1(ignored , but leave the same number of #'s)
+#	;	
+#	;	
+#	;	
+#	;	
+#	;	
+
+;Alien bonus
+#	;	AVP_ENVIRONMENT_INVASION_A,
+#	;	AVP_ENVIRONMENT_DERELICT_A,
+#	;	AVP_ENVIRONMENT_TYRARGO_A,
+#	;	AVP_ENVIRONMENT_FURY161_A,
+#	;	AVP_ENVIRONMENT_CAVERNS_A,
+
+;Predator bonus
+#	;	AVP_ENVIRONMENT_INVASION_P,
+#	;	AVP_ENVIRONMENT_TYRARGO_P,
+#	;	AVP_ENVIRONMENT_TEMPLE_P,
+#	;	AVP_ENVIRONMENT_ESCAPE_P,
+#	;	AVP_ENVIRONMENT_EARTHBOUND_P,
+
+;Marine bonus
+#	;	AVP_ENVIRONMENT_WATERFALL_M,
+#	;	AVP_ENVIRONMENT_VAULTS_M,
+#	;	AVP_ENVIRONMENT_FERARCO_M,
+#	;	AVP_ENVIRONMENT_TEMPLE_M,
+#	;	AVP_ENVIRONMENT_GATEWAY_M,
+
+;Multiplayer part 2(ignored , but leave the same number of #'s)
+#	;	
+#	;	
+#	;	
+#	;	
+#	;	
+#	;	

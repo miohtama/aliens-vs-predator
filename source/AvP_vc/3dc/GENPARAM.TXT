@@ -1,0 +1,140 @@
+# AVP ALIEN GENERATOR DATA FILE
+#
+# This file contains level parameters for alien/marine generation.
+# There are three parameters defined for each level:
+# 1. Maximum number of aliens/marines in the level
+# 2. Number of aliens/marines generated per minute
+# 3. The increase in number generated per minute, per minute
+# 
+# For an example of how these parameters work: if the initial
+# number of aliens generated per minute is 3, and the increase
+# in number per minute is 2, then during the first minute of
+# play time 3 aliens will be generated, during the second minute
+# 5 more will be generated, and during the third minute another
+# 7 will be generated.
+#
+# The format of this file is: comment lines start with a hash,
+# and each data item sits a new line. Each data item is preceeded
+# with a comment, stating what it is 
+# 
+# CHANGING THIS FILE
+# ------------------
+# You may change any parameter for any level in this file. Save the
+# file, and the next time you run the game the new parameter value
+# will be used... however, you must follow these rules:
+#
+# 1. Stick to the format conventions described above
+# 2. Do not insert comment lines longer than 80 characters
+# 3. Do not change the order of the data items in this file
+# 4. Do not save the file as anything other than a ASCII text file
+# If you just edit the particular data item you are interested in,
+# and then save the file, you shouldn't get any problems.
+#  
+# Value Ranges
+# ------------
+# Maximum number of aliens should be between 0 and 255:
+# 25 is a typical value.
+# Aliens per minute should be between 0 and 255:
+# 3 is a typical value
+# Increase in aliens per minute should be between 0 and 255
+# 2 is a typical value
+#
+# Patrick.
+# -----------------------------------------------------------------
+#
+# GEN 1 (GENERAL ACCESS) : MAX ALIENS
+25
+# GEN 1 (GENERAL ACCESS) : ALIENS PER MINUTE
+3
+# GEN 1 (GENERAL ACCESS) : INCREASE IN ALIENS PER MINUTE
+2
+# GEN 2 (LIVING QUARTERS) : MAX ALIENS
+25
+# GEN 2 (LIVING QUARTERS) : ALIENS PER MINUTE
+4
+# GEN 2 (LIVING QUARTERS) : INCREASE IN ALIENS PER MINUTE
+2
+# GEN 3 (HANGER1) : MAX ALIENS
+25
+# GEN 3 (HANGER1) : ALIENS PER MINUTE
+4
+# GEN 3 (HANGER1) : INCREASE IN ALIENS PER MINUTE
+2
+# MEDLAB : MAX ALIENS
+25
+# MEDLAB : ALIENS PER MINUTE
+3
+# MEDLAB : INCREASE IN ALIENS PER MINUTE
+2
+# CMC 2 (HANGER 2) : MAX ALIENS
+25
+# CMC 2 (HANGER 2) : ALIENS PER MINUTE
+3
+# CMC 2 (HANGER 2) : INCREASE IN ALIENS PER MINUTE
+2
+# CMC 4 (MAIN ARMOURY) : MAX ALIENS
+25
+# CMC 4 (MAIN ARMOURY) : ALIENS PER MINUTE
+3
+# CMC 4 (MAIN ARMOURY) : INCREASE IN ALIENS PER MINUTE
+2
+# CMC 6 (MAIN CONTROL) : MAX ALIENS
+25
+# CMC 6 (MAIN CONTROL) : ALIENS PER MINUTE
+3
+# CMC 6 (MAIN CONTROL) : INCREASE IN ALIENS PER MINUTE
+2
+# SP2 (SECURITY POINT 2) : MAX ALIENS
+10
+# SP2 (SECURITY POINT 2) : ALIENS PER MINUTE
+1
+# SP2 (SECURITY POINT 2) : INCREASE IN ALIENS PER MINUTE
+1
+# SP3 (SECURITY POINT 3) : MAX ALIENS
+10
+# SP3 (SECURITY POINT 3) : ALIENS PER MINUTE
+1
+# SP3 (SECURITY POINT 3) : INCREASE IN ALIENS PER MINUTE
+1
+# R&D 2 (BIOWEAPONS RESEARCH) : MAX ALIENS
+25
+# R&D 2 (BIOWEAPONS RESEARCH) : ALIENS PER MINUTE
+3
+# R&D 2 (BIOWEAPONS RESEARCH) : INCREASE IN ALIENS PER MINUTE
+2
+# R&D 3 (CYBERNETIC AUGMENTATION) : MAX ALIENS
+25
+# R&D 3 (CYBERNETIC AUGMENTATION) : ALIENS PER MINUTE
+3
+# R&D 3 (CYBERNETIC AUGMENTATION) : INCREASE IN ALIENS PER MINUTE
+2
+# R&D 4 (NON-TERRESTRIAL TECH) : MAX ALIENS
+25
+# R&D 4 (NON-TERRESTRIAL TECH) : ALIENS PER MINUTE
+3
+# R&D 4 (NON-TERRESTRIAL TECH) : INCREASE IN ALIENS PER MINUTE
+2
+# MPS 2 (POWER SITE MAINTAINANCE) : MAX ALIENS
+25
+# MPS 2 (POWER SITE MAINTAINANCE) : ALIENS PER MINUTE
+3
+# MPS 2 (POWER SITE MAINTAINANCE) : INCREASE IN ALIENS PER MINUTE
+2
+# MPS 4 (MAIN REACTOR / NEST) : MAX ALIENS
+10
+# MPS 4 (MAIN REACTOR / NEST) : ALIENS PER MINUTE
+1
+# MPS 4 (MAIN REACTOR / NEST) : INCREASE IN ALIENS PER MINUTE
+1
+# SURFACE : MAX ALIENS
+25
+# SURFACE : ALIENS PER MINUTE
+5
+# SURFACE : INCREASE IN ALIENS PER MINUTE
+4
+# ENTRANCE : MAX ALIENS
+10
+# ENTRANCE : ALIENS PER MINUTE
+2
+# ENTRANCE : INCREASE IN ALIENS PER MINUTE
+1 

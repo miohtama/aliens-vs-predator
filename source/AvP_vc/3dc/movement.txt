@@ -1,0 +1,43 @@
+Movement Speeds
+
+Feel free to experiment with the values.
+(10000 mm per second means the player
+can cover 100m in 10 seconds.)
+
+You MUST leave the # signs in front of the numbers;
+please do not change this file in any other way!
+
+
+* Alien Movement Values *
+
+Running speed, (mm per second)
+#18000
+Side-step speed, (mm per second)
+#18000
+Turning speed, (revolutions per second * 4096)
+#2000
+Jumping speed, (mm per second)
+#9000
+
+* Predator Movement Values *
+
+Running speed, (mm per second)
+#16000
+Side-step speed, (mm per second)
+#16000
+Turning speed, (revolutions per second * 4096)
+#2000
+Jumping speed, (mm per second)
+#9000
+
+
+* Marine Movement Values *
+
+Running speed, (mm per second)
+#15000
+Side-step speed, (mm per second)
+#15000
+Turning speed, (revolutions per second * 4096)
+#2000
+Jumping speed, (mm per second)
+#9000

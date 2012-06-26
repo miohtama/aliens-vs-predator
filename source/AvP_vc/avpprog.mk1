@@ -1,0 +1,2278 @@
+!define BLANK ""
+c:\avp_copy\mmx_math.obj : c:\avp_copy\3dc\win95\mmx_math.asm .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wasm 3dc\win95\mmx_math.asm -i=C:\WATCOM\h;C:\WATCOM\h\nt -mf -5r -w4 -e25&
+ -zq
+
+c:\avp_copy\afont.obj : c:\avp_copy\3dc\afont.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\afont.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3dc\avp;&
+3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gadgets;3d&
+c\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=1 -dAVP&
+_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or -oe20 -&
+d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\ai_sight.obj : c:\avp_copy\3dc\avp\ai_sight.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\ai_sight.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3&
+dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gad&
+gets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=&
+1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or &
+-oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\avpview.obj : c:\avp_copy\3dc\avp\avpview.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\avpview.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3d&
+c\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gadg&
+ets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=1&
+ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or -&
+oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\bh_agun.obj : c:\avp_copy\3dc\avp\bh_agun.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\bh_agun.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3d&
+c\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gadg&
+ets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=1&
+ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or -&
+oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\bh_ais.obj : c:\avp_copy\3dc\avp\bh_ais.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\bh_ais.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3dc&
+\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gadge&
+ts;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=1 &
+-dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or -o&
+e20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\bh_alien.obj : c:\avp_copy\3dc\avp\bh_alien.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\bh_alien.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3&
+dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gad&
+gets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=&
+1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or &
+-oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\bh_binsw.obj : c:\avp_copy\3dc\avp\bh_binsw.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\bh_binsw.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3&
+dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gad&
+gets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=&
+1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or &
+-oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\bh_cable.obj : c:\avp_copy\3dc\avp\bh_cable.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\bh_cable.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3&
+dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gad&
+gets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=&
+1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or &
+-oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\bh_corpse.obj : c:\avp_copy\3dc\avp\bh_corpse.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\bh_corpse.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;&
+3dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\ga&
+dgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine&
+=1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or&
+ -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\bh_deathvol.obj : c:\avp_copy\3dc\avp\bh_deathvol.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\bh_deathvol.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\&
+h;3dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\&
+gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengi&
+ne=1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -&
+or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\bh_debri.obj : c:\avp_copy\3dc\avp\bh_debri.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\bh_debri.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3&
+dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gad&
+gets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=&
+1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or &
+-oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\bh_dummy.obj : c:\avp_copy\3dc\avp\bh_dummy.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\bh_dummy.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3&
+dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gad&
+gets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=&
+1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or &
+-oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\bh_fan.obj : c:\avp_copy\3dc\avp\bh_fan.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\bh_fan.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3dc&
+\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gadge&
+ts;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=1 &
+-dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or -o&
+e20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\bh_far.obj : c:\avp_copy\3dc\avp\bh_far.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\bh_far.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3dc&
+\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gadge&
+ts;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=1 &
+-dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or -o&
+e20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\bh_fhug.obj : c:\avp_copy\3dc\avp\bh_fhug.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\bh_fhug.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3d&
+c\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gadg&
+ets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=1&
+ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or -&
+oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\bh_gener.obj : c:\avp_copy\3dc\avp\bh_gener.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\bh_gener.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3&
+dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gad&
+gets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=&
+1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or &
+-oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\bh_ldoor.obj : c:\avp_copy\3dc\avp\bh_ldoor.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\bh_ldoor.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3&
+dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gad&
+gets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=&
+1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or &
+-oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\bh_lift.obj : c:\avp_copy\3dc\avp\bh_lift.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\bh_lift.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3d&
+c\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gadg&
+ets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=1&
+ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or -&
+oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\bh_light.obj : c:\avp_copy\3dc\avp\bh_light.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\bh_light.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3&
+dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gad&
+gets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=&
+1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or &
+-oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\bh_lnksw.obj : c:\avp_copy\3dc\avp\bh_lnksw.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\bh_lnksw.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3&
+dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gad&
+gets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=&
+1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or &
+-oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\bh_ltfx.obj : c:\avp_copy\3dc\avp\bh_ltfx.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\bh_ltfx.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3d&
+c\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gadg&
+ets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=1&
+ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or -&
+oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\bh_marin.obj : c:\avp_copy\3dc\avp\bh_marin.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\bh_marin.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3&
+dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gad&
+gets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=&
+1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or &
+-oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\bh_mission.obj : c:\avp_copy\3dc\avp\bh_mission.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\bh_mission.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h&
+;3dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\g&
+adgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengin&
+e=1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -o&
+r -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\bh_near.obj : c:\avp_copy\3dc\avp\bh_near.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\bh_near.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3d&
+c\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gadg&
+ets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=1&
+ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or -&
+oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\bh_pargen.obj : c:\avp_copy\3dc\avp\bh_pargen.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\bh_pargen.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;&
+3dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\ga&
+dgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine&
+=1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or&
+ -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\bh_plachier.obj : c:\avp_copy\3dc\avp\bh_plachier.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\bh_plachier.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\&
+h;3dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\&
+gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengi&
+ne=1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -&
+or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\bh_plift.obj : c:\avp_copy\3dc\avp\bh_plift.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\bh_plift.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3&
+dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gad&
+gets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=&
+1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or &
+-oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\bh_pred.obj : c:\avp_copy\3dc\avp\bh_pred.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\bh_pred.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3d&
+c\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gadg&
+ets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=1&
+ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or -&
+oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\bh_queen.obj : c:\avp_copy\3dc\avp\bh_queen.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\bh_queen.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3&
+dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gad&
+gets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=&
+1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or &
+-oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\bh_rubberduck.obj : c:\avp_copy\3dc\avp\bh_rubberduck.c .AUTODEP&
+END
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\bh_rubberduck.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watco&
+m\h;3dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win9&
+5\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -den&
+gine=1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa&
+ -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\bh_selfdest.obj : c:\avp_copy\3dc\avp\bh_selfdest.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\bh_selfdest.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\&
+h;3dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\&
+gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengi&
+ne=1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -&
+or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\bh_snds.obj : c:\avp_copy\3dc\avp\bh_snds.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\bh_snds.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3d&
+c\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gadg&
+ets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=1&
+ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or -&
+oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\bh_spcl.obj : c:\avp_copy\3dc\avp\bh_spcl.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\bh_spcl.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3d&
+c\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gadg&
+ets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=1&
+ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or -&
+oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\bh_swdor.obj : c:\avp_copy\3dc\avp\bh_swdor.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\bh_swdor.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3&
+dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gad&
+gets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=&
+1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or &
+-oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\bh_track.obj : c:\avp_copy\3dc\avp\bh_track.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\bh_track.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3&
+dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gad&
+gets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=&
+1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or &
+-oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\bh_types.obj : c:\avp_copy\3dc\avp\bh_types.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\bh_types.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3&
+dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gad&
+gets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=&
+1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or &
+-oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\bh_videoscreen.obj : c:\avp_copy\3dc\avp\bh_videoscreen.c .AUTOD&
+EPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\bh_videoscreen.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watc&
+om\h;3dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win&
+95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -de&
+ngine=1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -o&
+a -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\bh_waypt.obj : c:\avp_copy\3dc\avp\bh_waypt.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\bh_waypt.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3&
+dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gad&
+gets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=&
+1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or &
+-oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\bh_weap.obj : c:\avp_copy\3dc\avp\bh_weap.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\bh_weap.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3d&
+c\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gadg&
+ets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=1&
+ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or -&
+oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\bh_xeno.obj : c:\avp_copy\3dc\avp\bh_xeno.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\bh_xeno.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3d&
+c\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gadg&
+ets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=1&
+ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or -&
+oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\bonusabilities.obj : c:\avp_copy\3dc\avp\bonusabilities.c .AUTOD&
+EPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\bonusabilities.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watc&
+om\h;3dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win&
+95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -de&
+ngine=1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -o&
+a -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\cheatmodes.obj : c:\avp_copy\3dc\avp\cheatmodes.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\cheatmodes.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h&
+;3dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\g&
+adgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengin&
+e=1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -o&
+r -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\comp_map.obj : c:\avp_copy\3dc\avp\comp_map.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\comp_map.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3&
+dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gad&
+gets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=&
+1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or &
+-oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\comp_shp.obj : c:\avp_copy\3dc\avp\comp_shp.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\comp_shp.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3&
+dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gad&
+gets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=&
+1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or &
+-oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\deaths.obj : c:\avp_copy\3dc\avp\deaths.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\deaths.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3dc&
+\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gadge&
+ts;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=1 &
+-dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or -o&
+e20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\decal.obj : c:\avp_copy\3dc\avp\decal.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\decal.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3dc\&
+avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gadget&
+s;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=1 -&
+dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or -oe&
+20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\detaillevels.obj : c:\avp_copy\3dc\avp\detaillevels.c .AUTODEPEN&
+D
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\detaillevels.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom&
+\h;3dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95&
+\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -deng&
+ine=1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa &
+-or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\dynamics.obj : c:\avp_copy\3dc\avp\dynamics.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\dynamics.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3&
+dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gad&
+gets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=&
+1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or &
+-oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\dynblock.obj : c:\avp_copy\3dc\avp\dynblock.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\dynblock.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3&
+dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gad&
+gets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=&
+1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or &
+-oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\equipmnt.obj : c:\avp_copy\3dc\avp\equipmnt.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\equipmnt.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3&
+dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gad&
+gets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=&
+1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or &
+-oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\extents.obj : c:\avp_copy\3dc\avp\extents.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\extents.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3d&
+c\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gadg&
+ets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=1&
+ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or -&
+oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\game.obj : c:\avp_copy\3dc\avp\game.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\game.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3dc\a&
+vp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gadgets&
+;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=1 -d&
+AVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or -oe2&
+0 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\game_statistics.obj : c:\avp_copy\3dc\avp\game_statistics.c .AUT&
+ODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\game_statistics.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\wat&
+com\h;3dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\wi&
+n95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -d&
+engine=1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -&
+oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\gameflow.obj : c:\avp_copy\3dc\avp\gameflow.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\gameflow.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3&
+dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gad&
+gets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=&
+1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or &
+-oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\hmodel.obj : c:\avp_copy\3dc\avp\hmodel.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\hmodel.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3dc&
+\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gadge&
+ts;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=1 &
+-dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or -o&
+e20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\hud.obj : c:\avp_copy\3dc\avp\hud.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\hud.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3dc\av&
+p;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gadgets;&
+3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=1 -dA&
+VP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or -oe20&
+ -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\inventry.obj : c:\avp_copy\3dc\avp\inventry.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\inventry.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3&
+dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gad&
+gets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=&
+1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or &
+-oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\language.obj : c:\avp_copy\3dc\avp\language.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\language.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3&
+dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gad&
+gets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=&
+1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or &
+-oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\lighting.obj : c:\avp_copy\3dc\avp\lighting.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\lighting.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3&
+dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gad&
+gets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=&
+1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or &
+-oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\los.obj : c:\avp_copy\3dc\avp\los.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\los.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3dc\av&
+p;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gadgets;&
+3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=1 -dA&
+VP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or -oe20&
+ -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\mempool.obj : c:\avp_copy\3dc\avp\mempool.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\mempool.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3d&
+c\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gadg&
+ets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=1&
+ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or -&
+oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\messagehistory.obj : c:\avp_copy\3dc\avp\messagehistory.c .AUTOD&
+EPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\messagehistory.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watc&
+om\h;3dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win&
+95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -de&
+ngine=1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -o&
+a -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\movement.obj : c:\avp_copy\3dc\avp\movement.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\movement.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3&
+dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gad&
+gets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=&
+1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or &
+-oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\mp_launch.obj : c:\avp_copy\3dc\avp\mp_launch.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\mp_launch.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;&
+3dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\ga&
+dgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine&
+=1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or&
+ -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\paintball.obj : c:\avp_copy\3dc\avp\paintball.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\paintball.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;&
+3dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\ga&
+dgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine&
+=1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or&
+ -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\particle.obj : c:\avp_copy\3dc\avp\particle.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\particle.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3&
+dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gad&
+gets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=&
+1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or &
+-oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\pfarlocs.obj : c:\avp_copy\3dc\avp\pfarlocs.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\pfarlocs.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3&
+dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gad&
+gets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=&
+1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or &
+-oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\pheromon.obj : c:\avp_copy\3dc\avp\pheromon.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\pheromon.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3&
+dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gad&
+gets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=&
+1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or &
+-oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\player.obj : c:\avp_copy\3dc\avp\player.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\player.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3dc&
+\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gadge&
+ts;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=1 &
+-dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or -o&
+e20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\pmove.obj : c:\avp_copy\3dc\avp\pmove.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\pmove.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3dc\&
+avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gadget&
+s;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=1 -&
+dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or -oe&
+20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\psnd.obj : c:\avp_copy\3dc\avp\psnd.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\psnd.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3dc\a&
+vp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gadgets&
+;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=1 -d&
+AVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or -oe2&
+0 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\psndproj.obj : c:\avp_copy\3dc\avp\psndproj.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\psndproj.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3&
+dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gad&
+gets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=&
+1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or &
+-oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\pvisible.obj : c:\avp_copy\3dc\avp\pvisible.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\pvisible.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3&
+dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gad&
+gets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=&
+1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or &
+-oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\savegame.obj : c:\avp_copy\3dc\avp\savegame.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\savegame.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3&
+dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gad&
+gets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=&
+1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or &
+-oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\secstats.obj : c:\avp_copy\3dc\avp\secstats.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\secstats.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3&
+dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gad&
+gets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=&
+1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or &
+-oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\sfx.obj : c:\avp_copy\3dc\avp\sfx.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\sfx.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3dc\av&
+p;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gadgets;&
+3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=1 -dA&
+VP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or -oe20&
+ -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\cube.obj : c:\avp_copy\3dc\avp\shapes\cube.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\shapes\cube.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\&
+h;3dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\&
+gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengi&
+ne=1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -&
+or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\stratdef.obj : c:\avp_copy\3dc\avp\stratdef.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\stratdef.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3&
+dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gad&
+gets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=&
+1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or &
+-oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\strutil.obj : c:\avp_copy\3dc\avp\support\strutil.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\support\strutil.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\wat&
+com\h;3dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\wi&
+n95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -d&
+engine=1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -&
+oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\targeting.obj : c:\avp_copy\3dc\avp\targeting.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\targeting.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;&
+3dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\ga&
+dgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine&
+=1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or&
+ -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\track.obj : c:\avp_copy\3dc\avp\track.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\track.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3dc\&
+avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gadget&
+s;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=1 -&
+dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or -oe&
+20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\triggers.obj : c:\avp_copy\3dc\avp\triggers.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\triggers.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3&
+dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gad&
+gets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=&
+1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or &
+-oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\weapons.obj : c:\avp_copy\3dc\avp\weapons.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\weapons.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3d&
+c\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gadg&
+ets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=1&
+ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or -&
+oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\cheat.obj : c:\avp_copy\3dc\avp\win95\cheat.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\win95\cheat.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\&
+h;3dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\&
+gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengi&
+ne=1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -&
+or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\directplay.obj : c:\avp_copy\3dc\avp\win95\directplay.c .AUTODEP&
+END
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\win95\directplay.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\wa&
+tcom\h;3dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\w&
+in95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -&
+dengine=1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi &
+-oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\dp_func.obj : c:\avp_copy\3dc\avp\win95\dp_func.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\win95\dp_func.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watco&
+m\h;3dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win9&
+5\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -den&
+gine=1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa&
+ -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\dplayext.obj : c:\avp_copy\3dc\avp\win95\dplayext.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\win95\dplayext.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watc&
+om\h;3dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win&
+95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -de&
+ngine=1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -o&
+a -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\endianio.obj : c:\avp_copy\3dc\avp\win95\endianio.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\win95\endianio.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watc&
+om\h;3dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win&
+95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -de&
+ngine=1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -o&
+a -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\avp_envinfo.obj : c:\avp_copy\3dc\avp\win95\frontend\avp_envinfo&
+.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\win95\frontend\avp_envinfo.c -i=c:\mssdk\include;c:\watcom\&
+h\nt;c:\watcom\h;3dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support&
+;3dc\avp\win95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 &
+-d_DEBUG -dengine=1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -o&
+m -oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\avp_menudata.obj : c:\avp_copy\3dc\avp\win95\frontend\avp_menuda&
+ta.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\win95\frontend\avp_menudata.c -i=c:\mssdk\include;c:\watcom&
+\h\nt;c:\watcom\h;3dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\suppor&
+t;3dc\avp\win95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32&
+ -d_DEBUG -dengine=1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -&
+om -oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\avp_menus.obj : c:\avp_copy\3dc\avp\win95\frontend\avp_menus.c .&
+AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\win95\frontend\avp_menus.c -i=c:\mssdk\include;c:\watcom\h\&
+nt;c:\watcom\h;3dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3&
+dc\avp\win95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d&
+_DEBUG -dengine=1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om &
+-oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\gflwplat.obj : c:\avp_copy\3dc\avp\win95\gflwplat.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\win95\gflwplat.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watc&
+om\h;3dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win&
+95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -de&
+ngine=1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -o&
+a -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\kzsort.obj : c:\avp_copy\3dc\avp\win95\kzsort.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\win95\kzsort.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom&
+\h;3dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95&
+\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -deng&
+ine=1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa &
+-or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\langplat.obj : c:\avp_copy\3dc\avp\win95\langplat.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\win95\langplat.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watc&
+om\h;3dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win&
+95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -de&
+ngine=1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -o&
+a -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\platsup.obj : c:\avp_copy\3dc\avp\win95\platsup.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\win95\platsup.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watco&
+m\h;3dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win9&
+5\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -den&
+gine=1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa&
+ -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\pldghost.obj : c:\avp_copy\3dc\avp\win95\pldghost.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\win95\pldghost.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watc&
+om\h;3dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win&
+95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -de&
+ngine=1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -o&
+a -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\pldnet.obj : c:\avp_copy\3dc\avp\win95\pldnet.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\win95\pldnet.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom&
+\h;3dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95&
+\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -deng&
+ine=1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa &
+-or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\psndplat.obj : c:\avp_copy\3dc\avp\win95\psndplat.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\win95\psndplat.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watc&
+om\h;3dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win&
+95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -de&
+ngine=1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -o&
+a -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\system.obj : c:\avp_copy\3dc\avp\win95\system.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\win95\system.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom&
+\h;3dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95&
+\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -deng&
+ine=1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa &
+-or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\usr_io.obj : c:\avp_copy\3dc\avp\win95\usr_io.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\win95\usr_io.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom&
+\h;3dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95&
+\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -deng&
+ine=1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa &
+-or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\vision.obj : c:\avp_copy\3dc\avp\win95\vision.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\win95\vision.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom&
+\h;3dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95&
+\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -deng&
+ine=1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa &
+-or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\winmain.obj : c:\avp_copy\3dc\avp\win95\winmain.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\avp\win95\winmain.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watco&
+m\h;3dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win9&
+5\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -den&
+gine=1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa&
+ -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\frustrum.obj : c:\avp_copy\3dc\frustrum.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\frustrum.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3dc\a&
+vp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gadgets&
+;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=1 -d&
+AVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or -oe2&
+0 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\kshape.obj : c:\avp_copy\3dc\kshape.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\kshape.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3dc\avp&
+;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gadgets;3&
+dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=1 -dAV&
+P_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or -oe20 &
+-d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\map.obj : c:\avp_copy\3dc\map.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\map.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3dc\avp;3d&
+c\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gadgets;3dc\&
+avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=1 -dAVP_D&
+EBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or -oe20 -d2&
+ -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\maths.obj : c:\avp_copy\3dc\maths.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\maths.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3dc\avp;&
+3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gadgets;3d&
+c\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=1 -dAVP&
+_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or -oe20 -&
+d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\mem3dc.obj : c:\avp_copy\3dc\mem3dc.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\mem3dc.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3dc\avp&
+;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gadgets;3&
+dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=1 -dAV&
+P_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or -oe20 &
+-d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\module.obj : c:\avp_copy\3dc\module.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\module.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3dc\avp&
+;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gadgets;3&
+dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=1 -dAV&
+P_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or -oe20 &
+-d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\morph.obj : c:\avp_copy\3dc\morph.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\morph.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3dc\avp;&
+3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gadgets;3d&
+c\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=1 -dAVP&
+_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or -oe20 -&
+d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\mslhand.obj : c:\avp_copy\3dc\mslhand.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\mslhand.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3dc\av&
+p;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gadgets;&
+3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=1 -dA&
+VP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or -oe20&
+ -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\object.obj : c:\avp_copy\3dc\object.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\object.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3dc\avp&
+;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gadgets;3&
+dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=1 -dAV&
+P_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or -oe20 &
+-d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\shpanim.obj : c:\avp_copy\3dc\shpanim.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\shpanim.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3dc\av&
+p;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gadgets;&
+3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=1 -dA&
+VP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or -oe20&
+ -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\sphere.obj : c:\avp_copy\3dc\sphere.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\sphere.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3dc\avp&
+;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gadgets;3&
+dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=1 -dAV&
+P_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or -oe20 &
+-d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\tables.obj : c:\avp_copy\3dc\tables.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\tables.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3dc\avp&
+;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gadgets;3&
+dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=1 -dAV&
+P_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or -oe20 &
+-d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\vdb.obj : c:\avp_copy\3dc\vdb.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\vdb.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3dc\avp;3d&
+c\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gadgets;3dc\&
+avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=1 -dAVP_D&
+EBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or -oe20 -d2&
+ -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\version.obj : c:\avp_copy\3dc\version.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\version.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3dc\av&
+p;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gadgets;&
+3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=1 -dA&
+VP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or -oe20&
+ -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\bink.obj : c:\avp_copy\3dc\win95\bink.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\win95\bink.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3dc&
+\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gadge&
+ts;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=1 &
+-dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or -o&
+e20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\cd_player.obj : c:\avp_copy\3dc\win95\cd_player.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\win95\cd_player.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\&
+h;3dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\&
+gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengi&
+ne=1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -&
+or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\db.obj : c:\avp_copy\3dc\win95\db.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\win95\db.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3dc\a&
+vp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gadgets&
+;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=1 -d&
+AVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or -oe2&
+0 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\dxlog.obj : c:\avp_copy\3dc\win95\dxlog.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\win95\dxlog.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3d&
+c\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gadg&
+ets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=1&
+ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or -&
+oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\fail.obj : c:\avp_copy\3dc\win95\fail.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\win95\fail.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3dc&
+\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gadge&
+ts;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=1 &
+-dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or -o&
+e20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\io.obj : c:\avp_copy\3dc\win95\io.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\win95\io.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3dc\a&
+vp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gadgets&
+;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=1 -d&
+AVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or -oe2&
+0 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\md5.obj : c:\avp_copy\3dc\win95\md5.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\win95\md5.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3dc\&
+avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gadget&
+s;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=1 -&
+dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or -oe&
+20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\our_mem.obj : c:\avp_copy\3dc\win95\our_mem.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\win95\our_mem.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;&
+3dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\ga&
+dgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine&
+=1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or&
+ -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\plat_shp.obj : c:\avp_copy\3dc\win95\plat_shp.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\win95\plat_shp.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h&
+;3dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\g&
+adgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengin&
+e=1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -o&
+r -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\plspecfn.obj : c:\avp_copy\3dc\win95\plspecfn.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\win95\plspecfn.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h&
+;3dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\g&
+adgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengin&
+e=1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -o&
+r -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\smacker.obj : c:\avp_copy\3dc\win95\smacker.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\win95\smacker.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;&
+3dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\ga&
+dgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine&
+=1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or&
+ -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\texio.obj : c:\avp_copy\3dc\win95\texio.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\win95\texio.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3d&
+c\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gadg&
+ets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=1&
+ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -or -&
+oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\vramtime.obj : c:\avp_copy\3dc\win95\vramtime.c .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wcc386 3dc\win95\vramtime.c -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h&
+;3dc\avp;3dc\win95;3dc\include;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\g&
+adgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengin&
+e=1 -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi -oa -o&
+r -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\cconvars.obj : c:\avp_copy\3dc\avp\cconvars.cpp .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\avp\cconvars.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h&
+;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\g&
+adgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengin&
+e=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc&
+ -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\cdtrackselection.obj : c:\avp_copy\3dc\avp\cdtrackselection.cpp &
+.AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\avp\cdtrackselection.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\&
+watcom\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp&
+\win95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG&
+ -dengine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+&
+ -om -oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\consolelog.obj : c:\avp_copy\3dc\avp\consolelog.cpp .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\avp\consolelog.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom&
+\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\win95&
+\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -deng&
+ine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -&
+oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\davehook.obj : c:\avp_copy\3dc\avp\davehook.cpp .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\avp\davehook.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h&
+;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\g&
+adgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengin&
+e=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc&
+ -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\equiputl.obj : c:\avp_copy\3dc\avp\equiputl.cpp .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\avp\equiputl.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h&
+;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\g&
+adgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengin&
+e=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc&
+ -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\gamecmds.obj : c:\avp_copy\3dc\avp\gamecmds.cpp .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\avp\gamecmds.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h&
+;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\g&
+adgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengin&
+e=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc&
+ -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\gamevars.obj : c:\avp_copy\3dc\avp\gamevars.cpp .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\avp\gamevars.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h&
+;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\g&
+adgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengin&
+e=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc&
+ -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\missions.obj : c:\avp_copy\3dc\avp\missions.cpp .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\avp\missions.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h&
+;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\g&
+adgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengin&
+e=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc&
+ -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\scream.obj : c:\avp_copy\3dc\avp\scream.cpp .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\avp\scream.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3&
+dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gad&
+gets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=&
+1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -&
+oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\consbind.obj : c:\avp_copy\3dc\avp\support\consbind.cpp .AUTODEP&
+END
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\avp\support\consbind.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\&
+watcom\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp&
+\win95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG&
+ -dengine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+&
+ -om -oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\consbtch.obj : c:\avp_copy\3dc\avp\support\consbtch.cpp .AUTODEP&
+END
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\avp\support\consbtch.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\&
+watcom\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp&
+\win95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG&
+ -dengine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+&
+ -om -oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\coordstr.obj : c:\avp_copy\3dc\avp\support\coordstr.cpp .AUTODEP&
+END
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\avp\support\coordstr.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\&
+watcom\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp&
+\win95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG&
+ -dengine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+&
+ -om -oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\daemon.obj : c:\avp_copy\3dc\avp\support\daemon.cpp .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\avp\support\daemon.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\wa&
+tcom\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\w&
+in95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -&
+dengine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -&
+om -oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\indexfnt.obj : c:\avp_copy\3dc\avp\support\indexfnt.cpp .AUTODEP&
+END
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\avp\support\indexfnt.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\&
+watcom\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp&
+\win95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG&
+ -dengine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+&
+ -om -oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\r2base.obj : c:\avp_copy\3dc\avp\support\r2base.cpp .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\avp\support\r2base.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\wa&
+tcom\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\w&
+in95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -&
+dengine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -&
+om -oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\r2pos666.obj : c:\avp_copy\3dc\avp\support\r2pos666.cpp .AUTODEP&
+END
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\avp\support\r2pos666.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\&
+watcom\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp&
+\win95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG&
+ -dengine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+&
+ -om -oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\reflist.obj : c:\avp_copy\3dc\avp\support\reflist.cpp .AUTODEPEN&
+D
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\avp\support\reflist.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\w&
+atcom\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\&
+win95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG &
+-dengine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ &
+-om -oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\refobj.obj : c:\avp_copy\3dc\avp\support\refobj.cpp .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\avp\support\refobj.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\wa&
+tcom\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\w&
+in95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -&
+dengine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -&
+om -oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\rentrntq.obj : c:\avp_copy\3dc\avp\support\rentrntq.cpp .AUTODEP&
+END
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\avp\support\rentrntq.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\&
+watcom\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp&
+\win95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG&
+ -dengine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+&
+ -om -oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\scstring.obj : c:\avp_copy\3dc\avp\support\scstring.cpp .AUTODEP&
+END
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\avp\support\scstring.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\&
+watcom\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp&
+\win95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG&
+ -dengine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+&
+ -om -oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\strtab.obj : c:\avp_copy\3dc\avp\support\strtab.cpp .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\avp\support\strtab.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\wa&
+tcom\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\w&
+in95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -&
+dengine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -&
+om -oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\tallfont.obj : c:\avp_copy\3dc\avp\support\tallfont.cpp .AUTODEP&
+END
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\avp\support\tallfont.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\&
+watcom\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp&
+\win95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG&
+ -dengine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+&
+ -om -oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\trig666.obj : c:\avp_copy\3dc\avp\support\trig666.cpp .AUTODEPEN&
+D
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\avp\support\trig666.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\w&
+atcom\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\&
+win95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG &
+-dengine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ &
+-om -oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\wrapstr.obj : c:\avp_copy\3dc\avp\support\wrapstr.cpp .AUTODEPEN&
+D
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\avp\support\wrapstr.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\w&
+atcom\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\&
+win95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG &
+-dengine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ &
+-om -oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\avpchunk.obj : c:\avp_copy\3dc\avp\win95\avpchunk.cpp .AUTODEPEN&
+D
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\avp\win95\avpchunk.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\wa&
+tcom\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\w&
+in95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -&
+dengine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -&
+om -oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\avpreg.obj : c:\avp_copy\3dc\avp\win95\avpreg.cpp .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\avp\win95\avpreg.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\watc&
+om\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\win&
+95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -de&
+ngine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om&
+ -oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\chtcodes.obj : c:\avp_copy\3dc\avp\win95\chtcodes.cpp .AUTODEPEN&
+D
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\avp\win95\chtcodes.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\wa&
+tcom\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\w&
+in95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -&
+dengine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -&
+om -oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\d3d_hud.obj : c:\avp_copy\3dc\avp\win95\d3d_hud.cpp .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\avp\win95\d3d_hud.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\wat&
+com\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\wi&
+n95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -d&
+engine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -o&
+m -oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\d3d_render.obj : c:\avp_copy\3dc\avp\win95\d3d_render.cpp .AUTOD&
+EPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\avp\win95\d3d_render.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\&
+watcom\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp&
+\win95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG&
+ -dengine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+&
+ -om -oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\ddplat.obj : c:\avp_copy\3dc\avp\win95\ddplat.cpp .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\avp\win95\ddplat.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\watc&
+om\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\win&
+95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -de&
+ngine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om&
+ -oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\dx_proj.obj : c:\avp_copy\3dc\avp\win95\dx_proj.cpp .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\avp\win95\dx_proj.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\wat&
+com\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\wi&
+n95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -d&
+engine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -o&
+m -oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\ffread.obj : c:\avp_copy\3dc\avp\win95\ffread.cpp .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\avp\win95\ffread.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\watc&
+om\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\win&
+95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -de&
+ngine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om&
+ -oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\ffstdio.obj : c:\avp_copy\3dc\avp\win95\ffstdio.cpp .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\avp\win95\ffstdio.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\wat&
+com\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\wi&
+n95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -d&
+engine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -o&
+m -oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\avp_intro.obj : c:\avp_copy\3dc\avp\win95\frontend\avp_intro.cpp&
+ .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\avp\win95\frontend\avp_intro.cpp -i=c:\mssdk\include;c:\watcom\&
+h\nt;c:\watcom\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support&
+;3dc\avp\win95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 &
+-d_DEBUG -dengine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan &
+-ol -ol+ -om -oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\avp_menugfx.obj : c:\avp_copy\3dc\avp\win95\frontend\avp_menugfx&
+.cpp .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\avp\win95\frontend\avp_menugfx.cpp -i=c:\mssdk\include;c:\watco&
+m\h\nt;c:\watcom\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\suppo&
+rt;3dc\avp\win95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN3&
+2 -d_DEBUG -dengine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexa&
+n -ol -ol+ -om -oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\avp_mp_config.obj : c:\avp_copy\3dc\avp\win95\frontend\avp_mp_co&
+nfig.cpp .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\avp\win95\frontend\avp_mp_config.cpp -i=c:\mssdk\include;c:\wat&
+com\h\nt;c:\watcom\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\sup&
+port;3dc\avp\win95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWI&
+N32 -d_DEBUG -dengine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -ote&
+xan -ol -ol+ -om -oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\avp_userprofile.obj : c:\avp_copy\3dc\avp\win95\frontend\avp_use&
+rprofile.cpp .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\avp\win95\frontend\avp_userprofile.cpp -i=c:\mssdk\include;c:\w&
+atcom\h\nt;c:\watcom\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\s&
+upport;3dc\avp\win95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -d&
+WIN32 -d_DEBUG -dengine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -o&
+texan -ol -ol+ -om -oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\ahudgadg.obj : c:\avp_copy\3dc\avp\win95\gadgets\ahudgadg.cpp .A&
+UTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\avp\win95\gadgets\ahudgadg.cpp -i=c:\mssdk\include;c:\watcom\h\&
+nt;c:\watcom\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3&
+dc\avp\win95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d&
+_DEBUG -dengine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -o&
+l -ol+ -om -oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\conscmnd.obj : c:\avp_copy\3dc\avp\win95\gadgets\conscmnd.cpp .A&
+UTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\avp\win95\gadgets\conscmnd.cpp -i=c:\mssdk\include;c:\watcom\h\&
+nt;c:\watcom\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3&
+dc\avp\win95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d&
+_DEBUG -dengine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -o&
+l -ol+ -om -oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\conssym.obj : c:\avp_copy\3dc\avp\win95\gadgets\conssym.cpp .AUT&
+ODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\avp\win95\gadgets\conssym.cpp -i=c:\mssdk\include;c:\watcom\h\n&
+t;c:\watcom\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3d&
+c\avp\win95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_&
+DEBUG -dengine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol&
+ -ol+ -om -oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\consvar.obj : c:\avp_copy\3dc\avp\win95\gadgets\consvar.cpp .AUT&
+ODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\avp\win95\gadgets\consvar.cpp -i=c:\mssdk\include;c:\watcom\h\n&
+t;c:\watcom\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3d&
+c\avp\win95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_&
+DEBUG -dengine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol&
+ -ol+ -om -oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\gadget.obj : c:\avp_copy\3dc\avp\win95\gadgets\gadget.cpp .AUTOD&
+EPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\avp\win95\gadgets\gadget.cpp -i=c:\mssdk\include;c:\watcom\h\nt&
+;c:\watcom\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc&
+\avp\win95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_D&
+EBUG -dengine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol &
+-ol+ -om -oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\hudgadg.obj : c:\avp_copy\3dc\avp\win95\gadgets\hudgadg.cpp .AUT&
+ODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\avp\win95\gadgets\hudgadg.cpp -i=c:\mssdk\include;c:\watcom\h\n&
+t;c:\watcom\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3d&
+c\avp\win95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_&
+DEBUG -dengine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol&
+ -ol+ -om -oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\rootgadg.obj : c:\avp_copy\3dc\avp\win95\gadgets\rootgadg.cpp .A&
+UTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\avp\win95\gadgets\rootgadg.cpp -i=c:\mssdk\include;c:\watcom\h\&
+nt;c:\watcom\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3&
+dc\avp\win95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d&
+_DEBUG -dengine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -o&
+l -ol+ -om -oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\t_ingadg.obj : c:\avp_copy\3dc\avp\win95\gadgets\t_ingadg.cpp .A&
+UTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\avp\win95\gadgets\t_ingadg.cpp -i=c:\mssdk\include;c:\watcom\h\&
+nt;c:\watcom\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3&
+dc\avp\win95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d&
+_DEBUG -dengine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -o&
+l -ol+ -om -oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\teletype.obj : c:\avp_copy\3dc\avp\win95\gadgets\teletype.cpp .A&
+UTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\avp\win95\gadgets\teletype.cpp -i=c:\mssdk\include;c:\watcom\h\&
+nt;c:\watcom\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3&
+dc\avp\win95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d&
+_DEBUG -dengine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -o&
+l -ol+ -om -oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\textexp.obj : c:\avp_copy\3dc\avp\win95\gadgets\textexp.cpp .AUT&
+ODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\avp\win95\gadgets\textexp.cpp -i=c:\mssdk\include;c:\watcom\h\n&
+t;c:\watcom\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3d&
+c\avp\win95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_&
+DEBUG -dengine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol&
+ -ol+ -om -oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\textin.obj : c:\avp_copy\3dc\avp\win95\gadgets\textin.cpp .AUTOD&
+EPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\avp\win95\gadgets\textin.cpp -i=c:\mssdk\include;c:\watcom\h\nt&
+;c:\watcom\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc&
+\avp\win95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_D&
+EBUG -dengine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol &
+-ol+ -om -oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\trepgadg.obj : c:\avp_copy\3dc\avp\win95\gadgets\trepgadg.cpp .A&
+UTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\avp\win95\gadgets\trepgadg.cpp -i=c:\mssdk\include;c:\watcom\h\&
+nt;c:\watcom\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3&
+dc\avp\win95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d&
+_DEBUG -dengine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -o&
+l -ol+ -om -oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\gammacontrol.obj : c:\avp_copy\3dc\avp\win95\gammacontrol.cpp .A&
+UTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\avp\win95\gammacontrol.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c&
+:\watcom\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\a&
+vp\win95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEB&
+UG -dengine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -o&
+l+ -om -oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\hierplace.obj : c:\avp_copy\3dc\avp\win95\hierplace.cpp .AUTODEP&
+END
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\avp\win95\hierplace.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\w&
+atcom\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\&
+win95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG &
+-dengine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ &
+-om -oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\intro.obj : c:\avp_copy\3dc\avp\win95\intro.cpp .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\avp\win95\intro.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\watco&
+m\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\win9&
+5\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -den&
+gine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om &
+-oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\iofocus.obj : c:\avp_copy\3dc\avp\win95\iofocus.cpp .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\avp\win95\iofocus.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\wat&
+com\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\wi&
+n95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -d&
+engine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -o&
+m -oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\jsndsup.obj : c:\avp_copy\3dc\avp\win95\jsndsup.cpp .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\avp\win95\jsndsup.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\wat&
+com\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\wi&
+n95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -d&
+engine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -o&
+m -oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\modcmds.obj : c:\avp_copy\3dc\avp\win95\modcmds.cpp .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\avp\win95\modcmds.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\wat&
+com\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\wi&
+n95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -d&
+engine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -o&
+m -oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\mousecentreing.obj : c:\avp_copy\3dc\avp\win95\mousecentreing.cp&
+p .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\avp\win95\mousecentreing.cpp -i=c:\mssdk\include;c:\watcom\h\nt&
+;c:\watcom\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc&
+\avp\win95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_D&
+EBUG -dengine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol &
+-ol+ -om -oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\npcsetup.obj : c:\avp_copy\3dc\avp\win95\npcsetup.cpp .AUTODEPEN&
+D
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\avp\win95\npcsetup.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\wa&
+tcom\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\w&
+in95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -&
+dengine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -&
+om -oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\objsetup.obj : c:\avp_copy\3dc\avp\win95\objsetup.cpp .AUTODEPEN&
+D
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\avp\win95\objsetup.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\wa&
+tcom\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\w&
+in95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -&
+dengine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -&
+om -oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\pathchnk.obj : c:\avp_copy\3dc\avp\win95\pathchnk.cpp .AUTODEPEN&
+D
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\avp\win95\pathchnk.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\wa&
+tcom\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\w&
+in95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -&
+dengine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -&
+om -oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\pcmenus.obj : c:\avp_copy\3dc\avp\win95\pcmenus.cpp .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\avp\win95\pcmenus.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\wat&
+com\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\wi&
+n95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -d&
+engine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -o&
+m -oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\progress_bar.obj : c:\avp_copy\3dc\avp\win95\progress_bar.cpp .A&
+UTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\avp\win95\progress_bar.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c&
+:\watcom\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\a&
+vp\win95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEB&
+UG -dengine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -o&
+l+ -om -oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\projload.obj : c:\avp_copy\3dc\avp\win95\projload.cpp .AUTODEPEN&
+D
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\avp\win95\projload.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\wa&
+tcom\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\w&
+in95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -&
+dengine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -&
+om -oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\scrshot.obj : c:\avp_copy\3dc\avp\win95\scrshot.cpp .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\avp\win95\scrshot.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\wat&
+com\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\wi&
+n95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -d&
+engine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -o&
+m -oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\strachnk.obj : c:\avp_copy\3dc\avp\win95\strachnk.cpp .AUTODEPEN&
+D
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\avp\win95\strachnk.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\wa&
+tcom\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\w&
+in95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -&
+dengine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -&
+om -oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\win_proj.obj : c:\avp_copy\3dc\avp\win95\win_proj.cpp .AUTODEPEN&
+D
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\avp\win95\win_proj.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\wa&
+tcom\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\w&
+in95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -&
+dengine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -&
+om -oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\mem3dcpp.obj : c:\avp_copy\3dc\mem3dcpp.cpp .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\mem3dcpp.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3dc&
+\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gadge&
+ts;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=1 &
+-d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -oi&
+ -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\alt_tab.obj : c:\avp_copy\3dc\win95\alt_tab.cpp .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\win95\alt_tab.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\&
+h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\&
+gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengi&
+ne=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -o&
+c -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\animchnk.obj : c:\avp_copy\3dc\win95\animchnk.cpp .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\win95\animchnk.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom&
+\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\win95&
+\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -deng&
+ine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -&
+oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\animobs.obj : c:\avp_copy\3dc\win95\animobs.cpp .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\win95\animobs.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\&
+h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\&
+gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengi&
+ne=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -o&
+c -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\awbmpld.obj : c:\avp_copy\3dc\win95\awbmpld.cpp .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\win95\awbmpld.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\&
+h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\&
+gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengi&
+ne=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -o&
+c -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\awiffld.obj : c:\avp_copy\3dc\win95\awiffld.cpp .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\win95\awiffld.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\&
+h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\&
+gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengi&
+ne=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -o&
+c -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\awpnmld.obj : c:\avp_copy\3dc\win95\awpnmld.cpp .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\win95\awpnmld.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\&
+h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\&
+gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengi&
+ne=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -o&
+c -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\awtexld.obj : c:\avp_copy\3dc\win95\awtexld.cpp .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\win95\awtexld.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\&
+h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\&
+gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengi&
+ne=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -o&
+c -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\bmpnames.obj : c:\avp_copy\3dc\win95\bmpnames.cpp .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\win95\bmpnames.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom&
+\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\win95&
+\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -deng&
+ine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -&
+oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\bonechunk.obj : c:\avp_copy\3dc\win95\bonechunk.cpp .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\win95\bonechunk.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\watco&
+m\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\win9&
+5\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -den&
+gine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om &
+-oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\chnkload.obj : c:\avp_copy\3dc\win95\chnkload.cpp .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\win95\chnkload.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom&
+\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\win95&
+\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -deng&
+ine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -&
+oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\chnktexi.obj : c:\avp_copy\3dc\win95\chnktexi.cpp .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\win95\chnktexi.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom&
+\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\win95&
+\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -deng&
+ine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -&
+oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\chnktype.obj : c:\avp_copy\3dc\win95\chnktype.cpp .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\win95\chnktype.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom&
+\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\win95&
+\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -deng&
+ine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -&
+oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\chunk.obj : c:\avp_copy\3dc\win95\chunk.cpp .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\win95\chunk.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;&
+3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\ga&
+dgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine&
+=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc &
+-oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\chunkpal.obj : c:\avp_copy\3dc\win95\chunkpal.cpp .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\win95\chunkpal.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom&
+\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\win95&
+\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -deng&
+ine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -&
+oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\d3_func.obj : c:\avp_copy\3dc\win95\d3_func.cpp .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\win95\d3_func.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\&
+h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\&
+gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengi&
+ne=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -o&
+c -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\dd_func.obj : c:\avp_copy\3dc\win95\dd_func.cpp .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\win95\dd_func.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\&
+h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\&
+gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengi&
+ne=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -o&
+c -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\debuglog.obj : c:\avp_copy\3dc\win95\debuglog.cpp .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\win95\debuglog.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom&
+\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\win95&
+\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -deng&
+ine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -&
+oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\di_func.obj : c:\avp_copy\3dc\win95\di_func.cpp .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\win95\di_func.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\&
+h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\&
+gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengi&
+ne=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -o&
+c -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\envchunk.obj : c:\avp_copy\3dc\win95\envchunk.cpp .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\win95\envchunk.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom&
+\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\win95&
+\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -deng&
+ine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -&
+oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\fragchnk.obj : c:\avp_copy\3dc\win95\fragchnk.cpp .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\win95\fragchnk.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom&
+\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\win95&
+\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -deng&
+ine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -&
+oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\gsprchnk.obj : c:\avp_copy\3dc\win95\gsprchnk.cpp .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\win95\gsprchnk.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom&
+\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\win95&
+\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -deng&
+ine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -&
+oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\hierchnk.obj : c:\avp_copy\3dc\win95\hierchnk.cpp .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\win95\hierchnk.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom&
+\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\win95&
+\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -deng&
+ine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -&
+oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\huffman.obj : c:\avp_copy\3dc\win95\huffman.cpp .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\win95\huffman.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\&
+h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\&
+gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengi&
+ne=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -o&
+c -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\iff.obj : c:\avp_copy\3dc\win95\iff.cpp .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\win95\iff.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;3d&
+c\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\gadg&
+ets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine=1&
+ -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc -o&
+i -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\iff_ilbm.obj : c:\avp_copy\3dc\win95\iff_ilbm.cpp .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\win95\iff_ilbm.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom&
+\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\win95&
+\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -deng&
+ine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -&
+oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\list_tem.obj : c:\avp_copy\3dc\win95\list_tem.cpp .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\win95\list_tem.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom&
+\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\win95&
+\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -deng&
+ine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -&
+oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\ltchunk.obj : c:\avp_copy\3dc\win95\ltchunk.cpp .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\win95\ltchunk.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\&
+h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\&
+gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengi&
+ne=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -o&
+c -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\media.obj : c:\avp_copy\3dc\win95\media.cpp .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\win95\media.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\h;&
+3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\ga&
+dgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengine&
+=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -oc &
+-oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\mishchnk.obj : c:\avp_copy\3dc\win95\mishchnk.cpp .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\win95\mishchnk.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom&
+\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\win95&
+\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -deng&
+ine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -&
+oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\obchunk.obj : c:\avp_copy\3dc\win95\obchunk.cpp .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\win95\obchunk.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\&
+h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\&
+gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengi&
+ne=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -o&
+c -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\shpchunk.obj : c:\avp_copy\3dc\win95\shpchunk.cpp .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\win95\shpchunk.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom&
+\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\win95&
+\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -deng&
+ine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -&
+oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\sndchunk.obj : c:\avp_copy\3dc\win95\sndchunk.cpp .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\win95\sndchunk.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom&
+\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\win95&
+\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -deng&
+ine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -&
+oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\sprchunk.obj : c:\avp_copy\3dc\win95\sprchunk.cpp .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\win95\sprchunk.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom&
+\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\win95&
+\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -deng&
+ine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -&
+oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\txioctrl.obj : c:\avp_copy\3dc\win95\txioctrl.cpp .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\win95\txioctrl.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom&
+\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\win95&
+\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -deng&
+ine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -&
+oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\videomodes.obj : c:\avp_copy\3dc\win95\videomodes.cpp .AUTODEPEN&
+D
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\win95\videomodes.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\watc&
+om\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\win&
+95\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -de&
+ngine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om&
+ -oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\win_func.obj : c:\avp_copy\3dc\win95\win_func.cpp .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\win95\win_func.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom&
+\h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\win95&
+\gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -deng&
+ine=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -&
+oc -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\wpchunk.obj : c:\avp_copy\3dc\win95\wpchunk.cpp .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ *wpp386 3dc\win95\wpchunk.cpp -i=c:\mssdk\include;c:\watcom\h\nt;c:\watcom\&
+h;3dc\avp;3dc\include;3dc\win95;3dc\avp\win95;3dc\avp\support;3dc\avp\win95\&
+gadgets;3dc\avp\win95\frontend;3dc -w4 -e25 -d_WIN32 -dWIN32 -d_DEBUG -dengi&
+ne=1 -d__STDC__ -dAVP_DEBUG_VERSION -ei -zq -d_WIN32 -otexan -ol -ol+ -om -o&
+c -oi -oa -or -oe20 -d2 -bm -fp5 -5r -bt=nt -mf
+
+c:\avp_copy\avpprog.exe : c:\avp_copy\mmx_math.obj c:\avp_copy\afont.obj c:\&
+avp_copy\ai_sight.obj c:\avp_copy\avpview.obj c:\avp_copy\bh_agun.obj c:\avp&
+_copy\bh_ais.obj c:\avp_copy\bh_alien.obj c:\avp_copy\bh_binsw.obj c:\avp_co&
+py\bh_cable.obj c:\avp_copy\bh_corpse.obj c:\avp_copy\bh_deathvol.obj c:\avp&
+_copy\bh_debri.obj c:\avp_copy\bh_dummy.obj c:\avp_copy\bh_fan.obj c:\avp_co&
+py\bh_far.obj c:\avp_copy\bh_fhug.obj c:\avp_copy\bh_gener.obj c:\avp_copy\b&
+h_ldoor.obj c:\avp_copy\bh_lift.obj c:\avp_copy\bh_light.obj c:\avp_copy\bh_&
+lnksw.obj c:\avp_copy\bh_ltfx.obj c:\avp_copy\bh_marin.obj c:\avp_copy\bh_mi&
+ssion.obj c:\avp_copy\bh_near.obj c:\avp_copy\bh_pargen.obj c:\avp_copy\bh_p&
+lachier.obj c:\avp_copy\bh_plift.obj c:\avp_copy\bh_pred.obj c:\avp_copy\bh_&
+queen.obj c:\avp_copy\bh_rubberduck.obj c:\avp_copy\bh_selfdest.obj c:\avp_c&
+opy\bh_snds.obj c:\avp_copy\bh_spcl.obj c:\avp_copy\bh_swdor.obj c:\avp_copy&
+\bh_track.obj c:\avp_copy\bh_types.obj c:\avp_copy\bh_videoscreen.obj c:\avp&
+_copy\bh_waypt.obj c:\avp_copy\bh_weap.obj c:\avp_copy\bh_xeno.obj c:\avp_co&
+py\bonusabilities.obj c:\avp_copy\cheatmodes.obj c:\avp_copy\comp_map.obj c:&
+\avp_copy\comp_shp.obj c:\avp_copy\deaths.obj c:\avp_copy\decal.obj c:\avp_c&
+opy\detaillevels.obj c:\avp_copy\dynamics.obj c:\avp_copy\dynblock.obj c:\av&
+p_copy\equipmnt.obj c:\avp_copy\extents.obj c:\avp_copy\game.obj c:\avp_copy&
+\game_statistics.obj c:\avp_copy\gameflow.obj c:\avp_copy\hmodel.obj c:\avp_&
+copy\hud.obj c:\avp_copy\inventry.obj c:\avp_copy\language.obj c:\avp_copy\l&
+ighting.obj c:\avp_copy\los.obj c:\avp_copy\mempool.obj c:\avp_copy\messageh&
+istory.obj c:\avp_copy\movement.obj c:\avp_copy\mp_launch.obj c:\avp_copy\pa&
+intball.obj c:\avp_copy\particle.obj c:\avp_copy\pfarlocs.obj c:\avp_copy\ph&
+eromon.obj c:\avp_copy\player.obj c:\avp_copy\pmove.obj c:\avp_copy\psnd.obj&
+ c:\avp_copy\psndproj.obj c:\avp_copy\pvisible.obj c:\avp_copy\savegame.obj &
+c:\avp_copy\secstats.obj c:\avp_copy\sfx.obj c:\avp_copy\cube.obj c:\avp_cop&
+y\stratdef.obj c:\avp_copy\strutil.obj c:\avp_copy\targeting.obj c:\avp_copy&
+\track.obj c:\avp_copy\triggers.obj c:\avp_copy\weapons.obj c:\avp_copy\chea&
+t.obj c:\avp_copy\directplay.obj c:\avp_copy\dp_func.obj c:\avp_copy\dplayex&
+t.obj c:\avp_copy\endianio.obj c:\avp_copy\avp_envinfo.obj c:\avp_copy\avp_m&
+enudata.obj c:\avp_copy\avp_menus.obj c:\avp_copy\gflwplat.obj c:\avp_copy\k&
+zsort.obj c:\avp_copy\langplat.obj c:\avp_copy\platsup.obj c:\avp_copy\pldgh&
+ost.obj c:\avp_copy\pldnet.obj c:\avp_copy\psndplat.obj c:\avp_copy\system.o&
+bj c:\avp_copy\usr_io.obj c:\avp_copy\vision.obj c:\avp_copy\winmain.obj c:\&
+avp_copy\frustrum.obj c:\avp_copy\kshape.obj c:\avp_copy\map.obj c:\avp_copy&
+\maths.obj c:\avp_copy\mem3dc.obj c:\avp_copy\module.obj c:\avp_copy\morph.o&
+bj c:\avp_copy\mslhand.obj c:\avp_copy\object.obj c:\avp_copy\shpanim.obj c:&
+\avp_copy\sphere.obj c:\avp_copy\tables.obj c:\avp_copy\vdb.obj c:\avp_copy\&
+version.obj c:\avp_copy\bink.obj c:\avp_copy\cd_player.obj c:\avp_copy\db.ob&
+j c:\avp_copy\dxlog.obj c:\avp_copy\fail.obj c:\avp_copy\io.obj c:\avp_copy\&
+md5.obj c:\avp_copy\our_mem.obj c:\avp_copy\plat_shp.obj c:\avp_copy\plspecf&
+n.obj c:\avp_copy\smacker.obj c:\avp_copy\texio.obj c:\avp_copy\vramtime.obj&
+ c:\avp_copy\cconvars.obj c:\avp_copy\cdtrackselection.obj c:\avp_copy\conso&
+lelog.obj c:\avp_copy\davehook.obj c:\avp_copy\equiputl.obj c:\avp_copy\game&
+cmds.obj c:\avp_copy\gamevars.obj c:\avp_copy\missions.obj c:\avp_copy\screa&
+m.obj c:\avp_copy\consbind.obj c:\avp_copy\consbtch.obj c:\avp_copy\coordstr&
+.obj c:\avp_copy\daemon.obj c:\avp_copy\indexfnt.obj c:\avp_copy\r2base.obj &
+c:\avp_copy\r2pos666.obj c:\avp_copy\reflist.obj c:\avp_copy\refobj.obj c:\a&
+vp_copy\rentrntq.obj c:\avp_copy\scstring.obj c:\avp_copy\strtab.obj c:\avp_&
+copy\tallfont.obj c:\avp_copy\trig666.obj c:\avp_copy\wrapstr.obj c:\avp_cop&
+y\avpchunk.obj c:\avp_copy\avpreg.obj c:\avp_copy\chtcodes.obj c:\avp_copy\d&
+3d_hud.obj c:\avp_copy\d3d_render.obj c:\avp_copy\ddplat.obj c:\avp_copy\dx_&
+proj.obj c:\avp_copy\ffread.obj c:\avp_copy\ffstdio.obj c:\avp_copy\avp_intr&
+o.obj c:\avp_copy\avp_menugfx.obj c:\avp_copy\avp_mp_config.obj c:\avp_copy\&
+avp_userprofile.obj c:\avp_copy\ahudgadg.obj c:\avp_copy\conscmnd.obj c:\avp&
+_copy\conssym.obj c:\avp_copy\consvar.obj c:\avp_copy\gadget.obj c:\avp_copy&
+\hudgadg.obj c:\avp_copy\rootgadg.obj c:\avp_copy\t_ingadg.obj c:\avp_copy\t&
+eletype.obj c:\avp_copy\textexp.obj c:\avp_copy\textin.obj c:\avp_copy\trepg&
+adg.obj c:\avp_copy\gammacontrol.obj c:\avp_copy\hierplace.obj c:\avp_copy\i&
+ntro.obj c:\avp_copy\iofocus.obj c:\avp_copy\jsndsup.obj c:\avp_copy\modcmds&
+.obj c:\avp_copy\mousecentreing.obj c:\avp_copy\npcsetup.obj c:\avp_copy\obj&
+setup.obj c:\avp_copy\pathchnk.obj c:\avp_copy\pcmenus.obj c:\avp_copy\progr&
+ess_bar.obj c:\avp_copy\projload.obj c:\avp_copy\scrshot.obj c:\avp_copy\str&
+achnk.obj c:\avp_copy\win_proj.obj c:\avp_copy\mem3dcpp.obj c:\avp_copy\alt_&
+tab.obj c:\avp_copy\animchnk.obj c:\avp_copy\animobs.obj c:\avp_copy\awbmpld&
+.obj c:\avp_copy\awiffld.obj c:\avp_copy\awpnmld.obj c:\avp_copy\awtexld.obj&
+ c:\avp_copy\bmpnames.obj c:\avp_copy\bonechunk.obj c:\avp_copy\chnkload.obj&
+ c:\avp_copy\chnktexi.obj c:\avp_copy\chnktype.obj c:\avp_copy\chunk.obj c:\&
+avp_copy\chunkpal.obj c:\avp_copy\d3_func.obj c:\avp_copy\dd_func.obj c:\avp&
+_copy\debuglog.obj c:\avp_copy\di_func.obj c:\avp_copy\envchunk.obj c:\avp_c&
+opy\fragchnk.obj c:\avp_copy\gsprchnk.obj c:\avp_copy\hierchnk.obj c:\avp_co&
+py\huffman.obj c:\avp_copy\iff.obj c:\avp_copy\iff_ilbm.obj c:\avp_copy\list&
+_tem.obj c:\avp_copy\ltchunk.obj c:\avp_copy\media.obj c:\avp_copy\mishchnk.&
+obj c:\avp_copy\obchunk.obj c:\avp_copy\shpchunk.obj c:\avp_copy\sndchunk.ob&
+j c:\avp_copy\sprchunk.obj c:\avp_copy\txioctrl.obj c:\avp_copy\videomodes.o&
+bj c:\avp_copy\win_func.obj c:\avp_copy\wpchunk.obj .AUTODEPEND
+ @c:
+ cd c:\avp_copy
+ @%write avpprog.lk1 FIL mmx_math.obj,afont.obj,ai_sight.obj,avpview.obj,bh_&
+agun.obj,bh_ais.obj,bh_alien.obj,bh_binsw.obj,bh_cable.obj,bh_corpse.obj,bh_&
+deathvol.obj,bh_debri.obj,bh_dummy.obj,bh_fan.obj,bh_far.obj,bh_fhug.obj,bh_&
+gener.obj,bh_ldoor.obj,bh_lift.obj,bh_light.obj,bh_lnksw.obj,bh_ltfx.obj,bh_&
+marin.obj,bh_mission.obj,bh_near.obj,bh_pargen.obj,bh_plachier.obj,bh_plift.&
+obj,bh_pred.obj,bh_queen.obj,bh_rubberduck.obj,bh_selfdest.obj,bh_snds.obj,b&
+h_spcl.obj,bh_swdor.obj,bh_track.obj,bh_types.obj,bh_videoscreen.obj,bh_wayp&
+t.obj,bh_weap.obj,bh_xeno.obj,bonusabilities.obj,cheatmodes.obj,comp_map.obj&
+,comp_shp.obj,deaths.obj,decal.obj,detaillevels.obj,dynamics.obj,dynblock.ob&
+j,equipmnt.obj,extents.obj,game.obj,game_statistics.obj,gameflow.obj,hmodel.&
+obj,hud.obj,inventry.obj,language.obj,lighting.obj,los.obj,mempool.obj,messa&
+gehistory.obj,movement.obj,mp_launch.obj,paintball.obj,particle.obj,pfarlocs&
+.obj,pheromon.obj,player.obj,pmove.obj,psnd.obj,psndproj.obj,pvisible.obj,sa&
+vegame.obj,secstats.obj,sfx.obj,cube.obj,stratdef.obj,strutil.obj,targeting.&
+obj,track.obj,triggers.obj,weapons.obj,cheat.obj,directplay.obj,dp_func.obj,&
+dplayext.obj,endianio.obj,avp_envinfo.obj,avp_menudata.obj,avp_menus.obj,gfl&
+wplat.obj,kzsort.obj,langplat.obj,platsup.obj,pldghost.obj,pldnet.obj,psndpl&
+at.obj,system.obj,usr_io.obj,vision.obj,winmain.obj,frustrum.obj,kshape.obj,&
+map.obj,maths.obj,mem3dc.obj,module.obj,morph.obj,mslhand.obj,object.obj,shp&
+anim.obj,sphere.obj,tables.obj,vdb.obj,version.obj,bink.obj,cd_player.obj,db&
+.obj,dxlog.obj,fail.obj,io.obj,md5.obj,our_mem.obj,plat_shp.obj,plspecfn.obj&
+,smacker.obj,texio.obj,vramtime.obj,cconvars.obj,cdtrackselection.obj,consol&
+elog.obj,davehook.obj,equiputl.obj,gamecmds.obj,gamevars.obj,missions.obj,sc&
+ream.obj,consbind.obj,consbtch.obj,coordstr.obj,daemon.obj,indexfnt.obj,r2ba&
+se.obj,r2pos666.obj,reflist.obj,refobj.obj,rentrntq.obj,scstring.obj,strtab.&
+obj,tallfont.obj,trig666.obj,wrapstr.obj,avpchunk.obj,avpreg.obj,chtcodes.ob&
+j,d3d_hud.obj,d3d_render.obj,ddplat.obj,dx_proj.obj,ffread.obj,ffstdio.obj,a&
+vp_intro.obj,avp_menugfx.obj,avp_mp_config.obj,avp_userprofile.obj,ahudgadg.&
+obj,conscmnd.obj,conssym.obj,consvar.obj,gadget.obj,hudgadg.obj,rootgadg.obj&
+,t_ingadg.obj,teletype.obj,textexp.obj,textin.obj,trepgadg.obj,gammacontrol.&
+obj,hierplace.obj,intro.obj,iofocus.obj,jsndsup.obj,modcmds.obj,mousecentrei&
+ng.obj,npcsetup.obj,objsetup.obj,pathchnk.obj,pcmenus.obj,progress_bar.obj,p&
+rojload.obj,scrshot.obj,strachnk.obj,win_proj.obj,mem3dcpp.obj,alt_tab.obj,a&
+nimchnk.obj,animobs.obj,awbmpld.obj,awiffld.obj,awpnmld.obj,awtexld.obj,bmpn&
+ames.obj,bonechunk.obj,chnkload.obj,chnktexi.obj,chnktype.obj,chunk.obj,chun&
+kpal.obj,d3_func.obj,dd_func.obj,debuglog.obj,di_func.obj,envchunk.obj,fragc&
+hnk.obj,gsprchnk.obj,hierchnk.obj,huffman.obj,iff.obj,iff_ilbm.obj,list_tem.&
+obj,ltchunk.obj,media.obj,mishchnk.obj,obchunk.obj,shpchunk.obj,sndchunk.obj&
+,sprchunk.obj,txioctrl.obj,videomodes.obj,win_func.obj,wpchunk.obj
+ @%append avpprog.lk1 
+!ifneq BLANK ""
+ *wlib -q -n -b avpprog.imp 
+ @%append avpprog.lk1 LIBR avpprog.imp
+!endif
+!ifneq BLANK ""
+ @%append avpprog.lk1 op resource=
+!endif
+ *wlink name avpprog d all SYS nt_win op m op st=256k libp c:\mssdk\lib;c:3d&
+c libr ddraw,dsound,dplayx,dinput,smackw32,binkw32 op maxe=25 op q op symf @&
+avpprog.lk1
+ copy avpprog.exe 3dc\avpprog.exe
+ 
+
